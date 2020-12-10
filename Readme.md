@@ -1,6 +1,8 @@
 # PPAST
 
-## Try PPAST
+## Don't try to run. Just a sample code
+
+## Run PPAST
   - OS: Any Debian derivatives
   - setup dependencies
     - `sudo apt intall docker.io`
@@ -22,7 +24,4 @@
 ## Load Fixture Data
      python manage.py loaddata fixture/usertype.json
      python manage.py loaddata fixture/activitytype.json
-     python manage.py loaddata fixture/activityschedule.json
-     python manage.py loaddata fixture/claimstype.json
-     python manage.py loaddata fixture/claimschedule.json
      
