@@ -1,0 +1,14 @@
+{% load i18n %}{% autoescape off %}
+{% blocktrans %}Hi {{ full_name }}, {% endblocktrans %}
+
+Thanks for signing up for TNA PPAST!
+
+Verify your email address so we know that it's really you!.
+
+{% block reset_link %}
+{{domain}}/register-confirm/?uid={{uid}}&token={{token}}
+{% endblock %}
+
+{% blocktrans %}The TNA PPAST Team {% endblocktrans %}
+
+{% endautoescape %}
